@@ -1,0 +1,88 @@
+body, html {
+	font-family: "proxima-nova", sans-serif;
+}
+
+body, html {
+	height: 100%;
+}
+
+body {
+	padding-top: 56px;
+}
+
+body.login {
+	padding-top: 0;
+}
+
+a {
+	outline: none !important;
+}
+
+#sidebar {
+	box-shadow: -6px 0 12px 5px rgba(136,136,136,1);
+	background-color: #ececec;
+}
+
+#main-content {
+	height: 100%;
+}
+
+#main-content div.col-lg-9 {
+	max-height: 100%;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+nav {
+	border-bottom: 1px solid #ccc;
+}
+
+#sidebar a {
+	transition: background-color 0.15s;
+	outline: 0;
+	border-bottom: 1px solid #bbb;
+	display: block;
+	text-decoration: none;
+}
+
+#sidebar a:hover {
+	background-color: #bbb;
+}
+
+#sidebar a:focus {
+	outline: none;
+}
+
+@media (max-width: 991px) {
+	#main-content {
+		height: initial;
+	}
+}
+
+#counter {
+	transition: color 0.2s;
+}
+
+div.gotv-table-container {
+	position: relative;
+}
+
+table.gotv-table {
+	min-width: 650px;
+}
+
+table.gotv-table td,
+table.gotv-table th{
+	padding: 0.25rem;
+}
+
+div.scroll {
+	max-width: 100%;
+
+	overflow-x: auto;
+	overflow-y: auto;
+}
+
+div#event-affiliation div.form-check {
+	justify-content: normal;
+}
